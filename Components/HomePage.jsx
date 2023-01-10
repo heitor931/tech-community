@@ -5,7 +5,7 @@ function HomePage() {
     <main>
       <div className="contrib">
         <h2>
-          Esta pode ser uma futura aplicação ou página WEB, simples ou de larga
+          Esta pode ser uma futura aplicação WEB, simples ou de larga
           escala construída pela nossa comunidade!
         </h2>
       </div>

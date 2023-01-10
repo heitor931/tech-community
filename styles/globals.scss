@@ -39,8 +39,9 @@ main {
 
 .contrib {
   display: flex;
-  width: fit-content;
-  min-width: 60.5vw;
+  //width: fit-content;
+ //min-width: 60.5vw;
+  width: 93%;
   height: fit-content;
   margin: auto 2rem;
   border-radius: 5px;
@@ -57,13 +58,16 @@ main {
   margin-top: 1rem;
 }
 
-@media (max-width: 360px) {
+@media (min-width: 1200px) {
   body {
     font-size: .9rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .contrib {
-    font-size: .9rem;
-    width: fit-content;
+    
+   width: 90%;
     height: fit-content;
     display: flex;
     flex-wrap: wrap;
