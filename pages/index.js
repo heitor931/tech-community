@@ -5,16 +5,16 @@ function Page() {
   return (
     <>
       <Head>
-        <title>Telco community & Ideas</title>
+        <title>Tech community & Ideas</title>
         <meta
           property="og:title"
-          content="Telco community & ideas"
+          content="Tech community & ideas"
           key="title"
         />
       </Head>
 
       <div className="mainPage">
-        <h1 className="title">Comunidade Telco Development & Ideas</h1>
+        <h1 className="title">Comunidade Tech Development & Ideas</h1>
         <HomePage />
       </div>
     </>

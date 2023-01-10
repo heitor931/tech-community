@@ -41,17 +41,19 @@ main {
   display: flex;
   //width: fit-content;
  //min-width: 60.5vw;
-  width: 93%;
+  width: 90%;
   height: fit-content;
   margin: auto 2rem;
   border-radius: 5px;
   justify-content: center;
   align-items: center;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  font-size: 1.5rem;
+  font-size: 1rem;
   flex-wrap: wrap;
   padding: 2rem;
 }
+
+
 
 .image1 {
   margin: auto 2rem;
@@ -83,4 +85,44 @@ main {
   height: 30vh;
   color: white;
   background-color: black;
+}
+
+.grupos-container { 
+  //border: 2px solid black;
+  width: 80vw;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+}
+
+.grupos-subcontainer {
+  margin: auto 10px;
+ // min-width: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+
+}
+
+.grupo {
+  display: flex;
+  flex-direction: column;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  //width: 20rem;
+  //width: 100vw;
+  height: 20rem;
+  color: #88179d;
+  &:hover {
+    background-color: #e8d2eb;
+  }
+  cursor: grab;
+}
+
+.image {
+  margin: auto 5px;
+  border-radius: 5px;
 }

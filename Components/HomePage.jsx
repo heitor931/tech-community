@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Grupos from "./Grupos";
 
 function HomePage() {
   return (
@@ -9,6 +10,7 @@ function HomePage() {
           escala construída pela nossa comunidade!
         </h2>
       </div>
+      <Grupos />
       <div className="image1">
         <Image
           src="/hannah-busing-Zyx1bK9mqmA-unsplash.jpg"
