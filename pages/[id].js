@@ -14,11 +14,11 @@ const listaDePaths = [
     { nome: "Cloud",imageName:"cloud" },
     { nome: "Geral ou Diversos",imageName:"geral" },
   ];
-function DetailPage({ groupName }) {
+function DetailPage() {
     const router = useRouter()
     const id = router.query.id
     return (
-        <section>
+        <section className="detail-container">
             <h1>Esta é a futura página para o grupo <span style={{color:"#88179d"}}>{id}</span></h1>           
         </section>
     );
@@ -28,7 +28,6 @@ export async function getStaticPaths() {
         const allPaths = listaDePaths.map((el) => {
             return { params: { id: el.nome}}
         })
-    console.log(allPaths);
     return {
       paths: allPaths,
       fallback: false, // can also be true or 'blocking'

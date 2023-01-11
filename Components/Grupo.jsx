@@ -14,8 +14,8 @@ function Grupo({ nome, imageName }) {
         className="image"
           src={`/${imageName}.jpg`}
           alt={imageName}
-          width="300"
-          height="200"
+          width="700"
+          height="500"
         />
   
     </div>
